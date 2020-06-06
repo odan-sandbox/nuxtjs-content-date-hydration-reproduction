@@ -1,7 +1,19 @@
 <template>
   <div>
-    {{ page.createdAt }}
-    {{ typeof page.createdAt }}
+    <section>
+      <h2>createdAt</h2>
+      <p>
+        {{ page.createdAt }}
+        {{ typeof page.createdAt }}
+      </p>
+    </section>
+    <section>
+      <h2>publishedAt</h2>
+      <p>
+        {{ page.publishedAt }}
+        {{ typeof page.publishedAt }}
+      </p>
+    </section>
   </div>
 </template>
 
